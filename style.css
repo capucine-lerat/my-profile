@@ -1,0 +1,115 @@
+body{
+
+background-color: rgb(169, 179, 136);
+font-family: times, serif;
+font-size: 17px;
+}
+
+h1 {
+font-family: "EB Garamond", serif;
+font-size: 48px;
+color: rgb(96, 63, 38);
+text-align: center;
+}
+
+
+h2{
+font-weight: bolder;
+font-family: "Abril fatface", serif;
+color : rgb(40, 40, 40);
+font-weight:300;
+font-size: 22px;
+text-align: center;
+}
+
+
+p{
+font-family: "Abril fatface", serif;
+font-size: 15px;
+text-align: center;
+}
+
+img{
+border-radius: 50% ;
+height: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+a{
+
+text-decoration: none;
+color: rgb(96, 63, 38);
+font-weight: bold;
+font-size: 15px;
+
+}
+a:hover {
+
+color :rgb(30, 30, 30)
+}
+
+
+div{ 
+margin:30px 30px }
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.dark-green{
+background-color: rgb(95, 111, 82);
+padding-top: 10px;
+padding-bottom: 15px;
+border-radius: 5px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+text-align: center;
+}
+
+.button-brown{
+	background-color: rgb(169, 179, 136);
+	color: rgb(96, 63, 38);
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.button-brown:hover {
+	background-color: rgb(242, 229, 191);
+	color: rgb(0, 0, 0);
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;	
+}
+
+#introduction li{
+	margin-right: 25px;
+}
+
+.list-horizontal li{
+	background-color: rgb(169, 179, 136);
+	display: inline;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+.list-horizontal li:hover{
+	background-color: rgb(242, 229, 191);
+	color: rgb(0, 0, 0);
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 650spx;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 475px;
+	}
+}
+
+
+
